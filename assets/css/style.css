@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffec;
+}
+ul#prizes {
+position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right:0;
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: absolute;  
+}
+ul#prizes li {
+  display: block;
+  float: left;
+  width: 14.29%;
+  height: 25%;
+  text-align: center;
+}
+ul#prizes li i {
+  margin-top: 50px;
+  font-size: 125px;
+}
+ul#prizes li span {
+  
+}
+#input_overlay {
+  position: absolute;
+  top: 42%;
+  bottom: 0;
+  left: 0;
+  right:0;
+  display: block;
+}
+#form_email {
+
+}
+input#email {
+  padding: 30px;
+  width: 50%;
+  height: auto;
+  font-size: 80px;
+  display: block;
+  margin: 0 auto;
+}
+#overlay {
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+  margin: 0;
+  padding: 0;
+  display: none;
+  opacity: 0.95;
+  z-index: 100;
+}
+#overlay_prize {
+  position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+  display: block;
+  z-index: 101;
+}
+#overlay_prize span#prize_icon {
+  font-size: 80px;
+  text-align: center;
+  color: #ffffec;
+  display: block;
+}
+#overlay_prize span#prize_name {
+  font-size: 120px;
+  text-align: center;
+  color: #ffffec;
+  font-weight: bold;
+  display: block;
+}
+#overlay_prize span#prize_description {
+  font-size: 80px;
+  text-align: center;
+  color: #ffffec;
+  display: block;
+}
+#alert {
+  margin: 10px auto;
+  width: 50%;
+  display: none;
+}
